@@ -1,0 +1,86 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+/* background oscuro trasparente sopra bady */
+.backgound-op{
+  width:1000px;
+	height:700px;
+  background-position: center;
+	background: black;
+  opacity: 0.5;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.contenitore{
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+
+}
+
+/* proprietà modelli */
+
+#nav-bar{
+  /* background-color: lime; */
+  background:lime;
+}
+
+.logo{
+  margin-top: 100px;
+  width: 200px;
+}
+
+.model{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* colore e font del modello */
+.nome-modello{
+  color: white;
+  font-size: 25px;
+}
+
+/* aggiustamento margini */
+div > p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+div > input{
+  margin-top: 30px;
+}
+
+/* rettangolo con bordi smussati per grafico dell'autonomia modello 1 */
+#potenza1{
+  width:300px;
+	height:20px;
+	background:orange;
+  border-radius: 5px;
+}
+
+/* rettangolo con bordi smussati per grafico dell'autonomia modello 2 */
+#potenza2{
+  width:500px;
+	height:20px;
+	background:lime;
+  border-radius: 5px;
+}
+
+/* rettangolo con bordi smussati per grafico dell'autonomia modello 3 */
+
+#potenza3{
+  width:100px;
+	height:20px;
+	background:red;
+  border-radius: 5px;
+}
